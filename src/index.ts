@@ -1,2 +1,3 @@
-export * from './components';
-export * from './hooks';
+import Balanced from './Balanced';
+
+export default Balanced;

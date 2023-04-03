@@ -1,30 +1,31 @@
-# react-ts-npm-package-boilerplate
+# `react-balanced`
 
-Boilerplate for React + Typescript npm package.
+Optically balance text in any HTML element.
 
-![Build Status](https://img.shields.io/github/workflow/status/goveo/react-ts-npm-package-boilerplate/Release)
+## Installation
 
-## Technologies
+```zsh
+yarn add react-balanced
+```
 
-- 🧰 **Main Stack** - React + Typescript
-- 📦 **Builder** - Rollup.js
-- 🚚 **CI/CD** - Github Actions + Semantic Release
-- 🧪 **Testing** - Jest + @testing-library/react
-- 📃 **Formatting** - Eslint + Prettier + Stylelint
-- 💼 **Package Manager** - Yarn
-- 🌈 **UI Testing** - Storybook
+## Usage
 
-## Setup
+```tsx
+import Balanced from 'react-balanced';
 
-- Copy/clone repo to some folder
-- Install dependencies
+const MyComponent = () => (
+  <Balanced as="h1">Lorem ipsum dolor sit amet, qui adipisicing elit.</Balanced>
+);
+```
 
-```bash
+## Developing
+
+```zsh
 yarn install
 ```
 
 - Run Storybook to test UI
 
-```bash
+```zsh
 yarn storybook
 ```

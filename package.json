@@ -13,9 +13,7 @@
     "build:clean": "rimraf build",
     "build:rollup": "rollup -c",
     "build": "npm-run-all build:clean build:rollup",
-    "lint:ts": "eslint ./src --ext .ts,.tsx --config .eslintrc --fix",
-    "lint:styles": "stylelint \"**/*.css\" --fix",
-    "lint": "npm-run-all lint:ts lint:styles",
+    "lint": "eslint ./src --ext .ts,.tsx --config .eslintrc --fix",
     "format": "prettier --write .",
     "semantic-release": "semantic-release",
     "storybook": "storybook dev -p 6006"

@@ -11,7 +11,8 @@ export default [
     output: [
       {
         file: 'build/index.js',
-        format: 'cjs',
+        format: 'esm',
+        sourcemap: true,
       },
     ],
     plugins: [
